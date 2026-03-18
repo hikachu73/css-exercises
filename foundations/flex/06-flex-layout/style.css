@@ -16,6 +16,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding:16px;
 }
 
 input {
@@ -24,3 +25,49 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+ul{
+  margin:0px;
+  padding: 0px;
+}
+a{
+  text-decoration: none;
+  color: gray;
+}
+.left-links,.right-links{
+  list-style-type:none ;
+  display: flex;
+  gap :16px;
+}
+.header,.footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+}
+.footer{
+  background-color: #eeeeee;
+}
+.buttons{
+  display: flex;
+  gap:8px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+/* did things in more complicated way, didn't think of putting body as flex, also a lot of redundant css code
